@@ -1,0 +1,29 @@
+database:
+ account:
+  serverAddress: "localhost"
+  username: "username"
+  password: "password"
+  tablerules:
+   tableName: "rules"
+   tableName2: "rules"
+ account_proxy:
+  serverAddress: "localhost"
+  username: "username"
+  password: "password"
+  tablerules:
+   tableName: "rules1"
+   tableName2: "rules2"
+ pay:
+  serverAddress: "localhost"
+  username: "username"
+  password: "password"
+  tablerules:
+   tableName: "rules1"
+   tableName: "rules2"
+   sms_validate_code: " limit 1"
+ finance:
+  serverAddress: "localhost"
+  username: "username"
+  password: "password"
+  tablerules:
+   tableName: "rules"
